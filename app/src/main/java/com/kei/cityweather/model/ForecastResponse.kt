@@ -3,7 +3,7 @@ package com.kei.cityweather.model
 import com.google.gson.annotations.SerializedName
 import com.kei.cityweather.model.all.*
 
-data class ForcastResponse(
+data class ForecastResponse(
 
 		@field:SerializedName("city")
 	val city: City? = null,

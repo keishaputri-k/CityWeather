@@ -43,7 +43,10 @@ android {
     }
     buildFeatures {
         viewBinding true
+        dataBinding true
+        buildConfig = true
     }
+
 }
 
 dependencies {
@@ -76,6 +79,9 @@ dependencies {
     implementation "com.squareup.retrofit2:adapter-rxjava3:$retrofitVersion"
     implementation "io.reactivex.rxjava3:rxandroid:$rxJavaVersion"
     implementation "io.reactivex.rxjava3:rxjava:$rxJavaVersion"
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.7.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation "org.jetbrains.anko:anko:0.10.8"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

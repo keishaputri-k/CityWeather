@@ -7,7 +7,7 @@
         android:title="@string/txt_location" />
 
     <item
-        android:id="@+id/navigation_predictions"
+        android:id="@+id/navigation_prediction"
         android:icon="@drawable/ic_outline_calendar_today_24"
         android:title="@string/txt_predictions" />
 
