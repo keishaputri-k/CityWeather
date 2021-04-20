@@ -2,8 +2,8 @@ package com.kei.cityweather.model.all
 
 import com.google.gson.annotations.SerializedName
 
+//Main
 data class Main(
-
         @field:SerializedName("temp")
         val temp: Double? = null,
 

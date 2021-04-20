@@ -2,6 +2,7 @@ package com.kei.cityweather.model.all
 
 import com.google.gson.annotations.SerializedName
 
+//city
 data class City(
 
         @field:SerializedName("country")
@@ -28,3 +29,5 @@ data class City(
         @field:SerializedName("population")
         val population: Int? = null
 )
+
+

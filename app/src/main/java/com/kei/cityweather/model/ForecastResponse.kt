@@ -5,54 +5,56 @@ import com.kei.cityweather.model.all.*
 
 data class ForecastResponse(
 
-		@field:SerializedName("city")
+	@field:SerializedName("city")
 	val city: City? = null,
 
-		@field:SerializedName("cnt")
+	@field:SerializedName("cnt")
 	val cnt: Int? = null,
 
-		@field:SerializedName("cod")
+	@field:SerializedName("cod")
 	val cod: String? = null,
 
-		@field:SerializedName("message")
+	@field:SerializedName("message")
 	val message: Int? = null,
 
-		@field:SerializedName("list")
+	@field:SerializedName("list")
 	val list: List<ListItem?>? = null
 )
 
 data class ListItem(
 
-		@field:SerializedName("dt")
+	@field:SerializedName("dt")
 	val dt: Int? = null,
 
-		@field:SerializedName("pop")
+	@field:SerializedName("pop")
 	val pop: Double? = null,
 
-		@field:SerializedName("rain")
+	@field:SerializedName("rain")
 	val rain: Rain? = null,
 
-		@field:SerializedName("visibility")
+	@field:SerializedName("visibility")
 	val visibility: Int? = null,
 
-		@field:SerializedName("dt_txt")
+	@field:SerializedName("dt_txt")
 	val dtTxt: String? = null,
 
-		@field:SerializedName("weather")
+	@field:SerializedName("weather")
 	val weather: List<WeatherItem?>? = null,
 
-		@field:SerializedName("main")
+	@field:SerializedName("main")
 	val main: Main? = null,
 
-		@field:SerializedName("clouds")
+	@field:SerializedName("clouds")
 	val clouds: Clouds? = null,
 
-		@field:SerializedName("sys")
-	val Sys: Sys? = null,
+	@field:SerializedName("sys")
+	val sys: Sys? = null,
 
-		@field:SerializedName("wind")
+	@field:SerializedName("wind")
 	val wind: Wind? = null
 )
+
+
 
 
 
